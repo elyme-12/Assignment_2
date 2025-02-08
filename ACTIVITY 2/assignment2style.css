@@ -95,7 +95,7 @@ body{
     box-shadow: 0 4px 30px (241, 115,0,0.1);
     backdrop-filter: blur(10px);
     width: 20%;
-    height: 20%;
+    height: 25%;
     margin: 150px auto;
     padding: 15px;
     margin-top: 120px;
@@ -170,12 +170,19 @@ p{
 /* --------------------------- FOR DESKTOP SIZE ----------------------------------  */
 @media screen and (max-width: 1080px) {
     p{
-        font-size: 15px;
+        font-size: 13px;
+
        }
     h1{
         font-size: 25px;
     }
 }
+
+    .cards1, .cards2, .cards3{
+        width: 30%;
+        
+        
+    }
 
 /* --------------------------- FOR TABLET SIZE ----------------------------------  */
 @media screen and (max-width: 768px) {
